@@ -458,8 +458,7 @@ function handleAddToCartClick() {
 
 Just like with our `POST` request, we need to specify the `method`, `headers`,
 and `body` options for our `PATCH` request as well. We also need to include the
-item's ID in the URL so that our server knows which item we're trying to update.
-
+item's ID in the URL so that our server knows which item we're trying to update.cz
 Since our goal is to let users add or remove items from their cart, we need to
 toggle the `isInCart` property of the item on the server (and eventually
 client-side as well). So in the body of the request, we send an object with the
